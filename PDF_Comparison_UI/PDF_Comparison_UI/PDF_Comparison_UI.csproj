@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{7E724502-4D2A-4D64-B3F0-3FB751A3B034}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>PDF_Comparison_UI</RootNamespace>
+    <AssemblyName>Mike%27s PDF_Comparison_UI</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>ylf.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Web.WebView2.Core, Version=1.0.3595.46, Culture=neutral, PublicKeyToken=2a8ab48044d2601e, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Web.WebView2.1.0.3595.46\lib\net462\Microsoft.Web.WebView2.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.WebView2.WinForms, Version=1.0.3595.46, Culture=neutral, PublicKeyToken=2a8ab48044d2601e, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Web.WebView2.1.0.3595.46\lib\net462\Microsoft.Web.WebView2.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Web.WebView2.Wpf, Version=1.0.3595.46, Culture=neutral, PublicKeyToken=2a8ab48044d2601e, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Web.WebView2.1.0.3595.46\lib\net462\Microsoft.Web.WebView2.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="diff-pdf-win-0.5.2\a.pdf" />
+    <None Include="diff-pdf-win-0.5.2\b.pdf" />
+    <None Include="diff-pdf-win-0.5.2\diff.pdf" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Program.resx">
+      <DependentUpon>Program.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="diff-pdf-win-0.5.2\diff-pdf.exe" />
+    <Content Include="diff-pdf-win-0.5.2\libbrotlicommon.dll" />
+    <Content Include="diff-pdf-win-0.5.2\libbrotlidec.dll" />
+    <Content Include="diff-pdf-win-0.5.2\libbz2-1.dll" />
+    <Content Include="diff-pdf-win-0.5.2\libcairo-2.dll" />
+    <Content Include="diff-pdf-win-0.5.2\libcrypto-3-x64.dll" />
+    <Content Include="diff-pdf-win-0.5.2\libcurl-4.dll" />
+    <Content Include="diff-pdf-win-0.5.2\libdeflate.dll" />
+    <Content Include="diff-pdf-win-0.5.2\libexpat-1.dll" />
+    <Content Include="diff-pdf-win-0.5.2\libffi-8.dll" />
+    <Content Include="diff-pdf-win-0.5.2\libfontconfig-1.dll" />
+    <Content Include="diff-pdf-win-0.5.2\libfreetype-6.dll" />
+    <Content Include="diff-pdf-win-0.5.2\libgcc_s_seh-1.dll" />
+    <Content Include="diff-pdf-win-0.5.2\libgio-2.0-0.dll" />
+    <Content Include="diff-pdf-win-0.5.2\libglib-2.0-0.dll" />
+    <Content Include="diff-pdf-win-0.5.2\libgmodule-2.0-0.dll" />
+    <Content Include="diff-pdf-win-0.5.2\libgobject-2.0-0.dll" />
+    <Content Include="diff-pdf-win-0.5.2\libgraphite2.dll" />
+    <Content Include="diff-pdf-win-0.5.2\libharfbuzz-0.dll" />
+    <Content Include="diff-pdf-win-0.5.2\libiconv-2.dll" />
+    <Content Include="diff-pdf-win-0.5.2\libidn2-0.dll" />
+    <Content Include="diff-pdf-win-0.5.2\libintl-8.dll" />
+    <Content Include="diff-pdf-win-0.5.2\libjbig-0.dll" />
+    <Content Include="diff-pdf-win-0.5.2\libjpeg-8.dll" />
+    <Content Include="diff-pdf-win-0.5.2\liblcms2-2.dll" />
+    <Content Include="diff-pdf-win-0.5.2\libLerc.dll" />
+    <Content Include="diff-pdf-win-0.5.2\liblzma-5.dll" />
+    <Content Include="diff-pdf-win-0.5.2\libnghttp2-14.dll" />
+    <Content Include="diff-pdf-win-0.5.2\libnspr4.dll" />
+    <Content Include="diff-pdf-win-0.5.2\libopenjp2-7.dll" />
+    <Content Include="diff-pdf-win-0.5.2\libpcre2-8-0.dll" />
+    <Content Include="diff-pdf-win-0.5.2\libpixman-1-0.dll" />
+    <Content Include="diff-pdf-win-0.5.2\libplc4.dll" />
+    <Content Include="diff-pdf-win-0.5.2\libplds4.dll" />
+    <Content Include="diff-pdf-win-0.5.2\libpng16-16.dll" />
+    <Content Include="diff-pdf-win-0.5.2\libpoppler-133.dll" />
+    <Content Include="diff-pdf-win-0.5.2\libpoppler-glib-8.dll" />
+    <Content Include="diff-pdf-win-0.5.2\libpsl-5.dll" />
+    <Content Include="diff-pdf-win-0.5.2\libsharpyuv-0.dll" />
+    <Content Include="diff-pdf-win-0.5.2\libssh2-1.dll" />
+    <Content Include="diff-pdf-win-0.5.2\libssl-3-x64.dll" />
+    <Content Include="diff-pdf-win-0.5.2\libstdc++-6.dll" />
+    <Content Include="diff-pdf-win-0.5.2\libtiff-6.dll" />
+    <Content Include="diff-pdf-win-0.5.2\libunistring-5.dll" />
+    <Content Include="diff-pdf-win-0.5.2\libwebp-7.dll" />
+    <Content Include="diff-pdf-win-0.5.2\libwinpthread-1.dll" />
+    <Content Include="diff-pdf-win-0.5.2\libzstd.dll" />
+    <Content Include="diff-pdf-win-0.5.2\nss3.dll" />
+    <Content Include="diff-pdf-win-0.5.2\nssutil3.dll" />
+    <Content Include="diff-pdf-win-0.5.2\smime3.dll" />
+    <Content Include="diff-pdf-win-0.5.2\wxbase30u_gcc_custom.dll" />
+    <Content Include="diff-pdf-win-0.5.2\wxmsw30u_core_gcc_custom.dll" />
+    <Content Include="diff-pdf-win-0.5.2\zlib1.dll" />
+    <Content Include="ylf.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\Microsoft.Web.WebView2.1.0.3595.46\build\Microsoft.Web.WebView2.targets" Condition="Exists('..\packages\Microsoft.Web.WebView2.1.0.3595.46\build\Microsoft.Web.WebView2.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>此專案參考這部電腦上所缺少的 NuGet 套件。請啟用 NuGet 套件還原，以下載該套件。如需詳細資訊，請參閱 http://go.microsoft.com/fwlink/?LinkID=322105。缺少的檔案是 {0}。</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.Web.WebView2.1.0.3595.46\build\Microsoft.Web.WebView2.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.Web.WebView2.1.0.3595.46\build\Microsoft.Web.WebView2.targets'))" />
+  </Target>
+</Project>

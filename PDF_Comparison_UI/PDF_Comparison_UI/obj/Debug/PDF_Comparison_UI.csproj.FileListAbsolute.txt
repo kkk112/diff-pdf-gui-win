@@ -1,0 +1,21 @@
+I:\VSP\PCU\PDF_Comparison_UI\PDF_Comparison_UI\obj\Debug\PDF_Comparison_UI.csproj.AssemblyReference.cache
+I:\VSP\PCU\PDF_Comparison_UI\PDF_Comparison_UI\obj\Debug\PDF_Comparison_UI.csproj.CoreCompileInputs.cache
+I:\VSP\PCU\PDF_Comparison_UI\PDF_Comparison_UI\obj\Debug\PDF_Comparison_UI.MainForm.resources
+I:\VSP\PCU\PDF_Comparison_UI\PDF_Comparison_UI\obj\Debug\PDF_Comparison_UI.csproj.GenerateResource.cache
+I:\VSP\PCU\PDF_Comparison_UI\PDF_Comparison_UI\obj\Debug\PDF_Comparison_UI.Properties.Resources.resources
+I:\VSP\PCU\PDF_Comparison_UI\PDF_Comparison_UI\bin\Debug\runtimes\win-x86\native\WebView2Loader.dll
+I:\VSP\PCU\PDF_Comparison_UI\PDF_Comparison_UI\bin\Debug\runtimes\win-x64\native\WebView2Loader.dll
+I:\VSP\PCU\PDF_Comparison_UI\PDF_Comparison_UI\bin\Debug\runtimes\win-arm64\native\WebView2Loader.dll
+I:\VSP\PCU\PDF_Comparison_UI\PDF_Comparison_UI\bin\Debug\Microsoft.Web.WebView2.Core.dll
+I:\VSP\PCU\PDF_Comparison_UI\PDF_Comparison_UI\bin\Debug\Microsoft.Web.WebView2.WinForms.dll
+I:\VSP\PCU\PDF_Comparison_UI\PDF_Comparison_UI\bin\Debug\Microsoft.Web.WebView2.Wpf.dll
+I:\VSP\PCU\PDF_Comparison_UI\PDF_Comparison_UI\bin\Debug\Microsoft.Web.WebView2.Core.xml
+I:\VSP\PCU\PDF_Comparison_UI\PDF_Comparison_UI\bin\Debug\Microsoft.Web.WebView2.WinForms.xml
+I:\VSP\PCU\PDF_Comparison_UI\PDF_Comparison_UI\bin\Debug\Microsoft.Web.WebView2.Wpf.xml
+I:\VSP\PCU\PDF_Comparison_UI\PDF_Comparison_UI\obj\Debug\PDF_Comp.0751E1A7.Up2Date
+I:\VSP\PCU\PDF_Comparison_UI\PDF_Comparison_UI\bin\Debug\Mike's PDF_Comparison_UI.exe.config
+I:\VSP\PCU\PDF_Comparison_UI\PDF_Comparison_UI\bin\Debug\Mike's PDF_Comparison_UI.exe
+I:\VSP\PCU\PDF_Comparison_UI\PDF_Comparison_UI\bin\Debug\Mike's PDF_Comparison_UI.pdb
+I:\VSP\PCU\PDF_Comparison_UI\PDF_Comparison_UI\obj\Debug\Mike's PDF_Comparison_UI.exe
+I:\VSP\PCU\PDF_Comparison_UI\PDF_Comparison_UI\obj\Debug\Mike's PDF_Comparison_UI.pdb
+I:\VSP\PCU\PDF_Comparison_UI\PDF_Comparison_UI\obj\Debug\Mike's PDF_Comparison_UI.exe.config
